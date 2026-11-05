@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4efe7">
+  <title>Pour Madame parfaite 🤍</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="topline"><span>UN PETIT COIN À NOUS</span><span id="date-label">10 NOVEMBRE 2026</span></header>
+
+    <section class="intro" id="home">
+      <div class="eyebrow">quelque chose que j'ai préparé pour toi</div>
+      <h1 id="headline">Pour Madame parfaite<span class="heart"> ♥</span></h1>
+      <p class="intro-copy" id="intro-copy">Joyeux anniversaire, Julia. J'ai caché quelques petites choses ici pour toi. Ouvre-les à ton rythme. 🤍</p>
+      <div class="rule"><span>✳</span></div>
+      <p class="small-note" id="unlock-note">Les petites enveloppes apparaîtront au fil de ta journée.</p>
+    </section>
+
+    <section class="envelopes" id="envelopes" aria-label="Tes surprises"></section>
+
+    <section class="letter-view hidden" id="letter-view" aria-live="polite">
+      <button class="back-button" id="back-button">← Retour aux enveloppes</button>
+      <div class="letter-paper">
+        <div class="letter-top" id="letter-time"></div>
+        <div id="letter-content"></div>
+        <div class="letter-signature" id="letter-signature"></div>
+      </div>
+    </section>
+
+    <footer>fait avec amour, par Adrien <span>♥</span></footer>
+  </main>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
